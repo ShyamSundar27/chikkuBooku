@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7C9143CF-1F99-4ADB-A10B-CCEFFB43E77E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "36B9DA07-6408-477D-B4B9-3D1206CED0EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x1001ff6a0">
+            <Locations>
+               <Location
+                  uuid = "36B9DA07-6408-477D-B4B9-3D1206CED0EB - 214f8ed8d65334b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Railway_Reservation_System.DBManager.getStationPassingDistances(staionPassingList: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Dictionary&lt;Swift.String, Swift.Float&gt;"
+                  moduleName = "Railway Reservation System"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyam-pt5397/Documents/XCode%20Folder/Copy/Railway%20Reservation%20System%20copy/Railway%20Reservation%20System/DBManager/DBManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

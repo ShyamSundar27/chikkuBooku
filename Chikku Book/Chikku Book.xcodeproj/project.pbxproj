@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B28EAC328D366D2000402E5 /* ExistingPassengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28EAC228D366D2000402E5 /* ExistingPassengerViewController.swift */; };
+		5B28EAC528D3689E000402E5 /* ExistingPassengerSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28EAC428D3689E000402E5 /* ExistingPassengerSelectionTableViewCell.swift */; };
+		5B28EAC728D49770000402E5 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28EAC628D49770000402E5 /* LoginPageViewController.swift */; };
+		5B28EAC928D49785000402E5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28EAC828D49785000402E5 /* SignUpViewController.swift */; };
+		5B3458DF28C5B7F600278CB7 /* SeatAndPassengerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3458DE28C5B7F600278CB7 /* SeatAndPassengerTableViewCell.swift */; };
+		5B3458E128C650D200278CB7 /* RecentSearchesDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3458E028C650D200278CB7 /* RecentSearchesDisplayTableViewCell.swift */; };
+		5B3458E328C6571800278CB7 /* RecentSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3458E228C6571800278CB7 /* RecentSearchCollectionViewCell.swift */; };
+		5B3458E528C75A8C00278CB7 /* OtherServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3458E428C75A8C00278CB7 /* OtherServicesTableViewCell.swift */; };
+		5B3458E728C76B9100278CB7 /* OtherServicesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3458E628C76B9100278CB7 /* OtherServicesCollectionViewCell.swift */; };
+		5B3458E928C8750400278CB7 /* TrainScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3458E828C8750400278CB7 /* TrainScheduleViewController.swift */; };
+		5B3458ED28C8969E00278CB7 /* TrainSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3458EC28C8969E00278CB7 /* TrainSearchTableViewController.swift */; };
+		5B54C3F128C8FE6300C64252 /* StationDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B54C3F028C8FE6300C64252 /* StationDetailsTableViewCell.swift */; };
+		5B54C3F328CB76E000C64252 /* TicketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B54C3F228CB76E000C64252 /* TicketListViewController.swift */; };
+		5B54C3F528CCDA6B00C64252 /* TicketDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B54C3F428CCDA6B00C64252 /* TicketDisplayTableViewCell.swift */; };
+		5B6E922128CF28ED00887D12 /* UpcomingTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E922028CF28ED00887D12 /* UpcomingTicketsViewController.swift */; };
+		5B6E922328CF42E500887D12 /* MyBookingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E922228CF42E500887D12 /* MyBookingsViewController.swift */; };
+		5B6E922528CF430C00887D12 /* ProfileTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E922428CF430C00887D12 /* ProfileTabViewController.swift */; };
+		5B6E922728D04F7400887D12 /* ThemeChangerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E922628D04F7400887D12 /* ThemeChangerTableViewCell.swift */; };
+		5B6E922928D0B0E300887D12 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E922828D0B0E300887D12 /* EditProfileViewController.swift */; };
+		5B6E922B28D1EDB300887D12 /* PnrEnquiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E922A28D1EDB300887D12 /* PnrEnquiryViewController.swift */; };
+		5B6E922D28D2E86400887D12 /* PrefferedCoachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E922C28D2E86400887D12 /* PrefferedCoachViewController.swift */; };
+		5B6E922F28D2EC7300887D12 /* CoachDisplayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E922E28D2EC7300887D12 /* CoachDisplayCollectionViewCell.swift */; };
+		5BB6B27028C48499002C810B /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6B26F28C48499002C810B /* TicketViewController.swift */; };
+		5BC525FC28D8AAE200634311 /* AvailabilityDisplayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC525FB28D8AAE200634311 /* AvailabilityDisplayCollectionViewCell.swift */; };
+		5BDCFA5528C243BE00B6DA08 /* FareDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCFA5428C243BE00B6DA08 /* FareDisplayTableViewCell.swift */; };
+		F820A0C22898EE1D0023FE44 /* TicketCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0C12898EE1D0023FE44 /* TicketCounter.swift */; };
+		F820A0C62898EE4C0023FE44 /* SeatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0C52898EE4C0023FE44 /* SeatManager.swift */; };
+		F820A0CE2898F1B10023FE44 /* SeatAvailabilityChartCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0CD2898F1B10023FE44 /* SeatAvailabilityChartCreator.swift */; };
+		F820A0D02898F2460023FE44 /* SeatBookedWithStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0CF2898F2460023FE44 /* SeatBookedWithStation.swift */; };
+		F820A0D72898FE410023FE44 /* RACSeatChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0D62898FE410023FE44 /* RACSeatChart.swift */; };
+		F820A0D92898FE5F0023FE44 /* WLSeatChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0D82898FE5F0023FE44 /* WLSeatChart.swift */; };
+		F820A0DB289904460023FE44 /* PassengerDetailsInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0DA289904460023FE44 /* PassengerDetailsInput.swift */; };
+		F820A0DD28995DDC0023FE44 /* SeatAvailableInEachBookingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0DC28995DDC0023FE44 /* SeatAvailableInEachBookingType.swift */; };
+		F820A0E2289A4BE90023FE44 /* SeatAvailabilityChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0E1289A4BE90023FE44 /* SeatAvailabilityChart.swift */; };
+		F820A0E4289A4D630023FE44 /* AvailableSeatChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0E3289A4D630023FE44 /* AvailableSeatChart.swift */; };
+		F820A0E6289A64D20023FE44 /* BookingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0E5289A64D20023FE44 /* BookingDetails.swift */; };
+		F820A0E8289A847A0023FE44 /* PassengerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820A0E7289A847A0023FE44 /* PassengerDetails.swift */; };
+		F8269EDD28A4C8D300449A28 /* FromToStationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8269EDC28A4C8D300449A28 /* FromToStationDetailsView.swift */; };
+		F8269EDF28A4E2A200449A28 /* TrainRunningAndCoachDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8269EDE28A4E2A200449A28 /* TrainRunningAndCoachDetailsTableViewCell.swift */; };
+		F841259528AFC56000D05356 /* PassengerDetailsEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F841259428AFC56000D05356 /* PassengerDetailsEntryViewController.swift */; };
+		F841259728B0BB6200D05356 /* SearchStationInputsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F841259628B0BB6200D05356 /* SearchStationInputsTableViewCell.swift */; };
+		F85189D6288FB4CD008B7D86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85189D5288FB4CD008B7D86 /* AppDelegate.swift */; };
+		F85189D8288FB4CD008B7D86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85189D7288FB4CD008B7D86 /* SceneDelegate.swift */; };
+		F85189DF288FB4CE008B7D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85189DE288FB4CE008B7D86 /* Assets.xcassets */; };
+		F85189E2288FB4CE008B7D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85189E0288FB4CE008B7D86 /* LaunchScreen.storyboard */; };
+		F8518A0F288FCC78008B7D86 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8518A0E288FCC78008B7D86 /* Train.swift */; };
+		F8518A13288FD18A008B7D86 /* StoppingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8518A12288FD18A008B7D86 /* StoppingDetails.swift */; };
+		F8518A15288FD1B8008B7D86 /* Coach.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8518A14288FD1B8008B7D86 /* Coach.swift */; };
+		F8518A17288FD1E5008B7D86 /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8518A16288FD1E5008B7D86 /* Seat.swift */; };
+		F8518A19288FD225008B7D86 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8518A18288FD225008B7D86 /* User.swift */; };
+		F8518A1B288FF38B008B7D86 /* SavedPassengerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8518A1A288FF38B008B7D86 /* SavedPassengerDetails.swift */; };
+		F8518A1D288FF48A008B7D86 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8518A1C288FF48A008B7D86 /* Ticket.swift */; };
+		F8518A2728900AB4008B7D86 /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8518A2628900AB4008B7D86 /* AppDatabase.swift */; };
+		F8518A29289260B7008B7D86 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8518A28289260B7008B7D86 /* DBManager.swift */; };
+		F863DA8D28B36D9700B3E00D /* BookingDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863DA8C28B36D9700B3E00D /* BookingDetailsTableViewCell.swift */; };
+		F863DA8F28B3B45600B3E00D /* AddPassengerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863DA8E28B3B45600B3E00D /* AddPassengerTableViewCell.swift */; };
+		F863DA9228B3C5E200B3E00D /* NewPassengerAddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863DA9128B3C5E200B3E00D /* NewPassengerAddingViewController.swift */; };
+		F863DA9428B49D0200B3E00D /* UserDetailsReceiverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863DA9328B49D0200B3E00D /* UserDetailsReceiverTableViewCell.swift */; };
+		F863DA9728B8FF9500B3E00D /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863DA9628B8FF9500B3E00D /* Validator.swift */; };
+		F863DA9928BC8D3000B3E00D /* PassengerDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863DA9828BC8D3000B3E00D /* PassengerDetailsTableViewCell.swift */; };
+		F863DA9B28BCA3AF00B3E00D /* TextFieldInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863DA9A28BCA3AF00B3E00D /* TextFieldInputTableViewCell.swift */; };
+		F8928259289C095100643882 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8928258289C095100643882 /* HomePageViewController.swift */; };
+		F892825B289C1B3A00643882 /* HomePageSearchTrainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892825A289C1B3A00643882 /* HomePageSearchTrainUIView.swift */; };
+		F892825D289C3F4900643882 /* JourneyDateSelecterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892825C289C3F4900643882 /* JourneyDateSelecterTableViewCell.swift */; };
+		F8BA963128BDDF5900ACD430 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA963028BDDF5900ACD430 /* CheckBox.swift */; };
+		F8BA963328BDE58400ACD430 /* CheckBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA963228BDE58400ACD430 /* CheckBoxTableViewCell.swift */; };
+		F8BA963528BE223800ACD430 /* ReviewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA963428BE223800ACD430 /* ReviewDetailsViewController.swift */; };
+		F8BF06CE289E859B0072DEE1 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF06CD289E859B0072DEE1 /* SelectorViewController.swift */; };
+		F8BF06D0289E8F160072DEE1 /* PresentValueSelectorTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF06CF289E8F160072DEE1 /* PresentValueSelectorTableView.swift */; };
+		F8BF06D4289FF34E0072DEE1 /* Delegates & DataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF06D3289FF34E0072DEE1 /* Delegates & DataSources.swift */; };
+		F8BF06D628A017D10072DEE1 /* General Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF06D528A017D10072DEE1 /* General Enums.swift */; };
+		F8BF06DC28A116F70072DEE1 /* SearchStationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF06DB28A116F70072DEE1 /* SearchStationTableViewController.swift */; };
+		F8BF06DE28A226AD0072DEE1 /* TrainAvailabilityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF06DD28A226AD0072DEE1 /* TrainAvailabilityListViewController.swift */; };
+		F8BFDB2928AD082300BFAB70 /* SeatAvailabilityDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BFDB2828AD082300BFAB70 /* SeatAvailabilityDisplayTableViewCell.swift */; };
+		F8BFDB6E28AE88F300BFAB70 /* RemainingDaysSeatAvailabilityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BFDB6D28AE88F300BFAB70 /* RemainingDaysSeatAvailabilityTableViewCell.swift */; };
+		F8C5FEB528A24093009FD7BE /* TrainAvailabilityDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C5FEB428A24093009FD7BE /* TrainAvailabilityDetailsTableViewCell.swift */; };
+		F8C5FEB728A26936009FD7BE /* TrainNameDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C5FEB628A26936009FD7BE /* TrainNameDisplayTableViewCell.swift */; };
+		F8CB429328AB5243006E2DD0 /* StationPassingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB429228AB5243006E2DD0 /* StationPassingDetails.swift */; };
+		F8E5863A289D5122004934C5 /* QuotaAndCoachTypeSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E58639289D5122004934C5 /* QuotaAndCoachTypeSelectionTableViewCell.swift */; };
+		F8E5863C289D54DA004934C5 /* QuotaTypeOrCoachTypeSelectorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E5863B289D54DA004934C5 /* QuotaTypeOrCoachTypeSelectorButton.swift */; };
+		F8F147592892ACAA005279F9 /* SleeperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F147582892ACAA005279F9 /* SleeperClass.swift */; };
+		F8F1475B2892ACE1005279F9 /* SecondSitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1475A2892ACE1005279F9 /* SecondSitting.swift */; };
+		F8F1475D2892AD10005279F9 /* AC3TierClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1475C2892AD10005279F9 /* AC3TierClass.swift */; };
+		F8F1475F2892AD3A005279F9 /* AC2TierClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1475E2892AD3A005279F9 /* AC2TierClass.swift */; };
+		F8F147612892AD5E005279F9 /* AC1TierClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F147602892AD5E005279F9 /* AC1TierClass.swift */; };
+		F8F147632892AD7D005279F9 /* ACChaiCarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F147622892AD7D005279F9 /* ACChaiCarClass.swift */; };
+		F8F147652892ADA4005279F9 /* ExecutiveChairCarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F147642892ADA4005279F9 /* ExecutiveChairCarClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B28EAC228D366D2000402E5 /* ExistingPassengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingPassengerViewController.swift; sourceTree = "<group>"; };
+		5B28EAC428D3689E000402E5 /* ExistingPassengerSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingPassengerSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		5B28EAC628D49770000402E5 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		5B28EAC828D49785000402E5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5B3458DE28C5B7F600278CB7 /* SeatAndPassengerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatAndPassengerTableViewCell.swift; sourceTree = "<group>"; };
+		5B3458E028C650D200278CB7 /* RecentSearchesDisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchesDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		5B3458E228C6571800278CB7 /* RecentSearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B3458E428C75A8C00278CB7 /* OtherServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherServicesTableViewCell.swift; sourceTree = "<group>"; };
+		5B3458E628C76B9100278CB7 /* OtherServicesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherServicesCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B3458E828C8750400278CB7 /* TrainScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainScheduleViewController.swift; sourceTree = "<group>"; };
+		5B3458EC28C8969E00278CB7 /* TrainSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainSearchTableViewController.swift; sourceTree = "<group>"; };
+		5B54C3F028C8FE6300C64252 /* StationDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		5B54C3F228CB76E000C64252 /* TicketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListViewController.swift; sourceTree = "<group>"; };
+		5B54C3F428CCDA6B00C64252 /* TicketDisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		5B6E922028CF28ED00887D12 /* UpcomingTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTicketsViewController.swift; sourceTree = "<group>"; };
+		5B6E922228CF42E500887D12 /* MyBookingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsViewController.swift; sourceTree = "<group>"; };
+		5B6E922428CF430C00887D12 /* ProfileTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabViewController.swift; sourceTree = "<group>"; };
+		5B6E922628D04F7400887D12 /* ThemeChangerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangerTableViewCell.swift; sourceTree = "<group>"; };
+		5B6E922828D0B0E300887D12 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		5B6E922A28D1EDB300887D12 /* PnrEnquiryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PnrEnquiryViewController.swift; sourceTree = "<group>"; };
+		5B6E922C28D2E86400887D12 /* PrefferedCoachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefferedCoachViewController.swift; sourceTree = "<group>"; };
+		5B6E922E28D2EC7300887D12 /* CoachDisplayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachDisplayCollectionViewCell.swift; sourceTree = "<group>"; };
+		5BB6B26F28C48499002C810B /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		5BC525FB28D8AAE200634311 /* AvailabilityDisplayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityDisplayCollectionViewCell.swift; sourceTree = "<group>"; };
+		5BDCFA5428C243BE00B6DA08 /* FareDisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		F820A0C12898EE1D0023FE44 /* TicketCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCounter.swift; sourceTree = "<group>"; };
+		F820A0C52898EE4C0023FE44 /* SeatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatManager.swift; sourceTree = "<group>"; };
+		F820A0CD2898F1B10023FE44 /* SeatAvailabilityChartCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatAvailabilityChartCreator.swift; sourceTree = "<group>"; };
+		F820A0CF2898F2460023FE44 /* SeatBookedWithStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatBookedWithStation.swift; sourceTree = "<group>"; };
+		F820A0D62898FE410023FE44 /* RACSeatChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RACSeatChart.swift; sourceTree = "<group>"; };
+		F820A0D82898FE5F0023FE44 /* WLSeatChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLSeatChart.swift; sourceTree = "<group>"; };
+		F820A0DA289904460023FE44 /* PassengerDetailsInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerDetailsInput.swift; sourceTree = "<group>"; };
+		F820A0DC28995DDC0023FE44 /* SeatAvailableInEachBookingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatAvailableInEachBookingType.swift; sourceTree = "<group>"; };
+		F820A0E1289A4BE90023FE44 /* SeatAvailabilityChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatAvailabilityChart.swift; sourceTree = "<group>"; };
+		F820A0E3289A4D630023FE44 /* AvailableSeatChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableSeatChart.swift; sourceTree = "<group>"; };
+		F820A0E5289A64D20023FE44 /* BookingDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetails.swift; sourceTree = "<group>"; };
+		F820A0E7289A847A0023FE44 /* PassengerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerDetails.swift; sourceTree = "<group>"; };
+		F8269EDC28A4C8D300449A28 /* FromToStationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromToStationDetailsView.swift; sourceTree = "<group>"; };
+		F8269EDE28A4E2A200449A28 /* TrainRunningAndCoachDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainRunningAndCoachDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F841259428AFC56000D05356 /* PassengerDetailsEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerDetailsEntryViewController.swift; sourceTree = "<group>"; };
+		F841259628B0BB6200D05356 /* SearchStationInputsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStationInputsTableViewCell.swift; sourceTree = "<group>"; };
+		F85189D2288FB4CD008B7D86 /* Chikku Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chikku Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85189D5288FB4CD008B7D86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F85189D7288FB4CD008B7D86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F85189DE288FB4CE008B7D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F85189E1288FB4CE008B7D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F85189E3288FB4CE008B7D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85189EB288FC2B0008B7D86 /* Chikku Book.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Chikku Book.entitlements"; sourceTree = "<group>"; };
+		F8518A0E288FCC78008B7D86 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		F8518A12288FD18A008B7D86 /* StoppingDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoppingDetails.swift; sourceTree = "<group>"; };
+		F8518A14288FD1B8008B7D86 /* Coach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coach.swift; sourceTree = "<group>"; };
+		F8518A16288FD1E5008B7D86 /* Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seat.swift; sourceTree = "<group>"; };
+		F8518A18288FD225008B7D86 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F8518A1A288FF38B008B7D86 /* SavedPassengerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPassengerDetails.swift; sourceTree = "<group>"; };
+		F8518A1C288FF48A008B7D86 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		F8518A2628900AB4008B7D86 /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
+		F8518A28289260B7008B7D86 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		F863DA8C28B36D9700B3E00D /* BookingDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F863DA8E28B3B45600B3E00D /* AddPassengerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPassengerTableViewCell.swift; sourceTree = "<group>"; };
+		F863DA9128B3C5E200B3E00D /* NewPassengerAddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPassengerAddingViewController.swift; sourceTree = "<group>"; };
+		F863DA9328B49D0200B3E00D /* UserDetailsReceiverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsReceiverTableViewCell.swift; sourceTree = "<group>"; };
+		F863DA9628B8FF9500B3E00D /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		F863DA9828BC8D3000B3E00D /* PassengerDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F863DA9A28BCA3AF00B3E00D /* TextFieldInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldInputTableViewCell.swift; sourceTree = "<group>"; };
+		F8928258289C095100643882 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		F892825A289C1B3A00643882 /* HomePageSearchTrainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageSearchTrainUIView.swift; sourceTree = "<group>"; };
+		F892825C289C3F4900643882 /* JourneyDateSelecterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyDateSelecterTableViewCell.swift; sourceTree = "<group>"; };
+		F8BA963028BDDF5900ACD430 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		F8BA963228BDE58400ACD430 /* CheckBoxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxTableViewCell.swift; sourceTree = "<group>"; };
+		F8BA963428BE223800ACD430 /* ReviewDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDetailsViewController.swift; sourceTree = "<group>"; };
+		F8BF06CD289E859B0072DEE1 /* SelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorViewController.swift; sourceTree = "<group>"; };
+		F8BF06CF289E8F160072DEE1 /* PresentValueSelectorTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentValueSelectorTableView.swift; sourceTree = "<group>"; };
+		F8BF06D3289FF34E0072DEE1 /* Delegates & DataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delegates & DataSources.swift"; sourceTree = "<group>"; };
+		F8BF06D528A017D10072DEE1 /* General Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "General Enums.swift"; sourceTree = "<group>"; };
+		F8BF06DB28A116F70072DEE1 /* SearchStationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStationTableViewController.swift; sourceTree = "<group>"; };
+		F8BF06DD28A226AD0072DEE1 /* TrainAvailabilityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainAvailabilityListViewController.swift; sourceTree = "<group>"; };
+		F8BFDB2828AD082300BFAB70 /* SeatAvailabilityDisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatAvailabilityDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		F8BFDB6D28AE88F300BFAB70 /* RemainingDaysSeatAvailabilityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainingDaysSeatAvailabilityTableViewCell.swift; sourceTree = "<group>"; };
+		F8C5FEB428A24093009FD7BE /* TrainAvailabilityDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainAvailabilityDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F8C5FEB628A26936009FD7BE /* TrainNameDisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainNameDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		F8CB429228AB5243006E2DD0 /* StationPassingDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationPassingDetails.swift; sourceTree = "<group>"; };
+		F8E58639289D5122004934C5 /* QuotaAndCoachTypeSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaAndCoachTypeSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		F8E5863B289D54DA004934C5 /* QuotaTypeOrCoachTypeSelectorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaTypeOrCoachTypeSelectorButton.swift; sourceTree = "<group>"; };
+		F8F147582892ACAA005279F9 /* SleeperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleeperClass.swift; sourceTree = "<group>"; };
+		F8F1475A2892ACE1005279F9 /* SecondSitting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSitting.swift; sourceTree = "<group>"; };
+		F8F1475C2892AD10005279F9 /* AC3TierClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC3TierClass.swift; sourceTree = "<group>"; };
+		F8F1475E2892AD3A005279F9 /* AC2TierClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC2TierClass.swift; sourceTree = "<group>"; };
+		F8F147602892AD5E005279F9 /* AC1TierClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC1TierClass.swift; sourceTree = "<group>"; };
+		F8F147622892AD7D005279F9 /* ACChaiCarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACChaiCarClass.swift; sourceTree = "<group>"; };
+		F8F147642892ADA4005279F9 /* ExecutiveChairCarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveChairCarClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85189CF288FB4CD008B7D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F820A0CC2898F1910023FE44 /* SeatAvailabilityChartCreator */ = {
+			isa = PBXGroup;
+			children = (
+				F820A0CD2898F1B10023FE44 /* SeatAvailabilityChartCreator.swift */,
+			);
+			path = SeatAvailabilityChartCreator;
+			sourceTree = "<group>";
+		};
+		F820A0E0289A4BAE0023FE44 /* SeatChart */ = {
+			isa = PBXGroup;
+			children = (
+				F820A0E1289A4BE90023FE44 /* SeatAvailabilityChart.swift */,
+				F820A0E3289A4D630023FE44 /* AvailableSeatChart.swift */,
+				F820A0CF2898F2460023FE44 /* SeatBookedWithStation.swift */,
+				F820A0D62898FE410023FE44 /* RACSeatChart.swift */,
+				F820A0D82898FE5F0023FE44 /* WLSeatChart.swift */,
+			);
+			path = SeatChart;
+			sourceTree = "<group>";
+		};
+		F820A0E9289B96F80023FE44 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8928258289C095100643882 /* HomePageViewController.swift */,
+				5B6E922228CF42E500887D12 /* MyBookingsViewController.swift */,
+				5B6E922428CF430C00887D12 /* ProfileTabViewController.swift */,
+				F8BF06DB28A116F70072DEE1 /* SearchStationTableViewController.swift */,
+				F8BF06CD289E859B0072DEE1 /* SelectorViewController.swift */,
+				F8BF06DD28A226AD0072DEE1 /* TrainAvailabilityListViewController.swift */,
+				F841259428AFC56000D05356 /* PassengerDetailsEntryViewController.swift */,
+				F863DA9128B3C5E200B3E00D /* NewPassengerAddingViewController.swift */,
+				F8BA963428BE223800ACD430 /* ReviewDetailsViewController.swift */,
+				5BB6B26F28C48499002C810B /* TicketViewController.swift */,
+				5B3458E828C8750400278CB7 /* TrainScheduleViewController.swift */,
+				5B3458EC28C8969E00278CB7 /* TrainSearchTableViewController.swift */,
+				5B54C3F228CB76E000C64252 /* TicketListViewController.swift */,
+				5B6E922028CF28ED00887D12 /* UpcomingTicketsViewController.swift */,
+				5B6E922828D0B0E300887D12 /* EditProfileViewController.swift */,
+				5B6E922A28D1EDB300887D12 /* PnrEnquiryViewController.swift */,
+				5B6E922C28D2E86400887D12 /* PrefferedCoachViewController.swift */,
+				5B28EAC228D366D2000402E5 /* ExistingPassengerViewController.swift */,
+				5B28EAC628D49770000402E5 /* LoginPageViewController.swift */,
+				5B28EAC828D49785000402E5 /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F838B00F289BA64900EACD28 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F841259628B0BB6200D05356 /* SearchStationInputsTableViewCell.swift */,
+				F892825C289C3F4900643882 /* JourneyDateSelecterTableViewCell.swift */,
+				F8E58639289D5122004934C5 /* QuotaAndCoachTypeSelectionTableViewCell.swift */,
+				F8C5FEB428A24093009FD7BE /* TrainAvailabilityDetailsTableViewCell.swift */,
+				F8C5FEB628A26936009FD7BE /* TrainNameDisplayTableViewCell.swift */,
+				F8269EDE28A4E2A200449A28 /* TrainRunningAndCoachDetailsTableViewCell.swift */,
+				F8BFDB2828AD082300BFAB70 /* SeatAvailabilityDisplayTableViewCell.swift */,
+				F8BFDB6D28AE88F300BFAB70 /* RemainingDaysSeatAvailabilityTableViewCell.swift */,
+				F863DA8C28B36D9700B3E00D /* BookingDetailsTableViewCell.swift */,
+				F863DA8E28B3B45600B3E00D /* AddPassengerTableViewCell.swift */,
+				F863DA9328B49D0200B3E00D /* UserDetailsReceiverTableViewCell.swift */,
+				F863DA9828BC8D3000B3E00D /* PassengerDetailsTableViewCell.swift */,
+				F863DA9A28BCA3AF00B3E00D /* TextFieldInputTableViewCell.swift */,
+				F8BA963228BDE58400ACD430 /* CheckBoxTableViewCell.swift */,
+				5BDCFA5428C243BE00B6DA08 /* FareDisplayTableViewCell.swift */,
+				5B3458DE28C5B7F600278CB7 /* SeatAndPassengerTableViewCell.swift */,
+				5B3458E028C650D200278CB7 /* RecentSearchesDisplayTableViewCell.swift */,
+				5B3458E228C6571800278CB7 /* RecentSearchCollectionViewCell.swift */,
+				5B3458E428C75A8C00278CB7 /* OtherServicesTableViewCell.swift */,
+				5B3458E628C76B9100278CB7 /* OtherServicesCollectionViewCell.swift */,
+				5B54C3F028C8FE6300C64252 /* StationDetailsTableViewCell.swift */,
+				5B54C3F428CCDA6B00C64252 /* TicketDisplayTableViewCell.swift */,
+				5B6E922628D04F7400887D12 /* ThemeChangerTableViewCell.swift */,
+				5B6E922E28D2EC7300887D12 /* CoachDisplayCollectionViewCell.swift */,
+				5B28EAC428D3689E000402E5 /* ExistingPassengerSelectionTableViewCell.swift */,
+				5BC525FB28D8AAE200634311 /* AvailabilityDisplayCollectionViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		F85189C9288FB4CD008B7D86 = {
+			isa = PBXGroup;
+			children = (
+				F85189D4288FB4CD008B7D86 /* Chikku Book */,
+				F85189D3288FB4CD008B7D86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85189D3288FB4CD008B7D86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85189D2288FB4CD008B7D86 /* Chikku Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85189D4288FB4CD008B7D86 /* Chikku Book */ = {
+			isa = PBXGroup;
+			children = (
+				F85189EB288FC2B0008B7D86 /* Chikku Book.entitlements */,
+				F85189D5288FB4CD008B7D86 /* AppDelegate.swift */,
+				F85189D7288FB4CD008B7D86 /* SceneDelegate.swift */,
+				F85189DE288FB4CE008B7D86 /* Assets.xcassets */,
+				F85189E0288FB4CE008B7D86 /* LaunchScreen.storyboard */,
+				F85189E3288FB4CE008B7D86 /* Info.plist */,
+				F8518A2A289260C2008B7D86 /* DBManager */,
+				F8518A2528900A9A008B7D86 /* Database */,
+				F8BF06D2289FF2D20072DEE1 /* Protocols */,
+				F820A0E9289B96F80023FE44 /* ViewControllers */,
+				F8928255289BD0AC00643882 /* Views */,
+				F863DA9528B8FF6F00B3E00D /* Validator */,
+				F8518A0D288FCC56008B7D86 /* DataModel */,
+			);
+			path = "Chikku Book";
+			sourceTree = "<group>";
+		};
+		F8518A0D288FCC56008B7D86 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8518A0E288FCC78008B7D86 /* Train.swift */,
+				F8518A12288FD18A008B7D86 /* StoppingDetails.swift */,
+				F8CB429228AB5243006E2DD0 /* StationPassingDetails.swift */,
+				F8F147572892AC83005279F9 /* Coach */,
+				F8518A16288FD1E5008B7D86 /* Seat.swift */,
+				F8518A18288FD225008B7D86 /* User.swift */,
+				F8518A1A288FF38B008B7D86 /* SavedPassengerDetails.swift */,
+				F820A0CC2898F1910023FE44 /* SeatAvailabilityChartCreator */,
+				F8518A1C288FF48A008B7D86 /* Ticket.swift */,
+				F820A0E5289A64D20023FE44 /* BookingDetails.swift */,
+				F820A0C12898EE1D0023FE44 /* TicketCounter.swift */,
+				F820A0DA289904460023FE44 /* PassengerDetailsInput.swift */,
+				F820A0E7289A847A0023FE44 /* PassengerDetails.swift */,
+				F820A0C52898EE4C0023FE44 /* SeatManager.swift */,
+				F820A0DC28995DDC0023FE44 /* SeatAvailableInEachBookingType.swift */,
+				F820A0E0289A4BAE0023FE44 /* SeatChart */,
+				F8BF06D528A017D10072DEE1 /* General Enums.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		F8518A2528900A9A008B7D86 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F8518A2628900AB4008B7D86 /* AppDatabase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		F8518A2A289260C2008B7D86 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				F8518A28289260B7008B7D86 /* DBManager.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		F863DA9528B8FF6F00B3E00D /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				F863DA9628B8FF9500B3E00D /* Validator.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		F8928255289BD0AC00643882 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F892825A289C1B3A00643882 /* HomePageSearchTrainUIView.swift */,
+				F8BF06CF289E8F160072DEE1 /* PresentValueSelectorTableView.swift */,
+				F8269EDC28A4C8D300449A28 /* FromToStationDetailsView.swift */,
+				F8E5863B289D54DA004934C5 /* QuotaTypeOrCoachTypeSelectorButton.swift */,
+				F8BA963028BDDF5900ACD430 /* CheckBox.swift */,
+				F838B00F289BA64900EACD28 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8BF06D2289FF2D20072DEE1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF06D3289FF34E0072DEE1 /* Delegates & DataSources.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F8F147572892AC83005279F9 /* Coach */ = {
+			isa = PBXGroup;
+			children = (
+				F8518A14288FD1B8008B7D86 /* Coach.swift */,
+				F8F147582892ACAA005279F9 /* SleeperClass.swift */,
+				F8F1475A2892ACE1005279F9 /* SecondSitting.swift */,
+				F8F1475C2892AD10005279F9 /* AC3TierClass.swift */,
+				F8F1475E2892AD3A005279F9 /* AC2TierClass.swift */,
+				F8F147602892AD5E005279F9 /* AC1TierClass.swift */,
+				F8F147622892AD7D005279F9 /* ACChaiCarClass.swift */,
+				F8F147642892ADA4005279F9 /* ExecutiveChairCarClass.swift */,
+			);
+			path = Coach;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85189D1288FB4CD008B7D86 /* Chikku Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85189E6288FB4CE008B7D86 /* Build configuration list for PBXNativeTarget "Chikku Book" */;
+			buildPhases = (
+				F85189CE288FB4CD008B7D86 /* Sources */,
+				F85189CF288FB4CD008B7D86 /* Frameworks */,
+				F85189D0288FB4CD008B7D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chikku Book";
+			productName = "Railway Reservation System";
+			productReference = F85189D2288FB4CD008B7D86 /* Chikku Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85189CA288FB4CD008B7D86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F85189D1288FB4CD008B7D86 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F85189CD288FB4CD008B7D86 /* Build configuration list for PBXProject "Chikku Book" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85189C9288FB4CD008B7D86;
+			productRefGroup = F85189D3288FB4CD008B7D86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85189D1288FB4CD008B7D86 /* Chikku Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85189D0288FB4CD008B7D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85189E2288FB4CE008B7D86 /* LaunchScreen.storyboard in Resources */,
+				F85189DF288FB4CE008B7D86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85189CE288FB4CD008B7D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BA963328BDE58400ACD430 /* CheckBoxTableViewCell.swift in Sources */,
+				F8BF06D0289E8F160072DEE1 /* PresentValueSelectorTableView.swift in Sources */,
+				5B6E922128CF28ED00887D12 /* UpcomingTicketsViewController.swift in Sources */,
+				F820A0C62898EE4C0023FE44 /* SeatManager.swift in Sources */,
+				F820A0CE2898F1B10023FE44 /* SeatAvailabilityChartCreator.swift in Sources */,
+				F8F147612892AD5E005279F9 /* AC1TierClass.swift in Sources */,
+				F8E5863A289D5122004934C5 /* QuotaAndCoachTypeSelectionTableViewCell.swift in Sources */,
+				F8F1475B2892ACE1005279F9 /* SecondSitting.swift in Sources */,
+				5B54C3F328CB76E000C64252 /* TicketListViewController.swift in Sources */,
+				5B3458ED28C8969E00278CB7 /* TrainSearchTableViewController.swift in Sources */,
+				F863DA9428B49D0200B3E00D /* UserDetailsReceiverTableViewCell.swift in Sources */,
+				F820A0DD28995DDC0023FE44 /* SeatAvailableInEachBookingType.swift in Sources */,
+				F820A0E2289A4BE90023FE44 /* SeatAvailabilityChart.swift in Sources */,
+				5BB6B27028C48499002C810B /* TicketViewController.swift in Sources */,
+				5B54C3F528CCDA6B00C64252 /* TicketDisplayTableViewCell.swift in Sources */,
+				5B28EAC728D49770000402E5 /* LoginPageViewController.swift in Sources */,
+				F820A0C22898EE1D0023FE44 /* TicketCounter.swift in Sources */,
+				F8F147632892AD7D005279F9 /* ACChaiCarClass.swift in Sources */,
+				5B6E922D28D2E86400887D12 /* PrefferedCoachViewController.swift in Sources */,
+				F892825B289C1B3A00643882 /* HomePageSearchTrainUIView.swift in Sources */,
+				F8F1475F2892AD3A005279F9 /* AC2TierClass.swift in Sources */,
+				F8F1475D2892AD10005279F9 /* AC3TierClass.swift in Sources */,
+				5B6E922B28D1EDB300887D12 /* PnrEnquiryViewController.swift in Sources */,
+				F8BFDB2928AD082300BFAB70 /* SeatAvailabilityDisplayTableViewCell.swift in Sources */,
+				F820A0E6289A64D20023FE44 /* BookingDetails.swift in Sources */,
+				5B3458E928C8750400278CB7 /* TrainScheduleViewController.swift in Sources */,
+				F820A0D72898FE410023FE44 /* RACSeatChart.swift in Sources */,
+				5B3458E528C75A8C00278CB7 /* OtherServicesTableViewCell.swift in Sources */,
+				F8BF06D628A017D10072DEE1 /* General Enums.swift in Sources */,
+				F8518A0F288FCC78008B7D86 /* Train.swift in Sources */,
+				F841259528AFC56000D05356 /* PassengerDetailsEntryViewController.swift in Sources */,
+				F8F147652892ADA4005279F9 /* ExecutiveChairCarClass.swift in Sources */,
+				F863DA9228B3C5E200B3E00D /* NewPassengerAddingViewController.swift in Sources */,
+				F85189D6288FB4CD008B7D86 /* AppDelegate.swift in Sources */,
+				5BDCFA5528C243BE00B6DA08 /* FareDisplayTableViewCell.swift in Sources */,
+				F8BA963528BE223800ACD430 /* ReviewDetailsViewController.swift in Sources */,
+				F8BF06D4289FF34E0072DEE1 /* Delegates & DataSources.swift in Sources */,
+				F8E5863C289D54DA004934C5 /* QuotaTypeOrCoachTypeSelectorButton.swift in Sources */,
+				F8928259289C095100643882 /* HomePageViewController.swift in Sources */,
+				F8518A17288FD1E5008B7D86 /* Seat.swift in Sources */,
+				F820A0DB289904460023FE44 /* PassengerDetailsInput.swift in Sources */,
+				F8518A13288FD18A008B7D86 /* StoppingDetails.swift in Sources */,
+				5B54C3F128C8FE6300C64252 /* StationDetailsTableViewCell.swift in Sources */,
+				5B6E922328CF42E500887D12 /* MyBookingsViewController.swift in Sources */,
+				F820A0E4289A4D630023FE44 /* AvailableSeatChart.swift in Sources */,
+				5B28EAC928D49785000402E5 /* SignUpViewController.swift in Sources */,
+				5B3458E728C76B9100278CB7 /* OtherServicesCollectionViewCell.swift in Sources */,
+				F8BF06DE28A226AD0072DEE1 /* TrainAvailabilityListViewController.swift in Sources */,
+				F820A0D02898F2460023FE44 /* SeatBookedWithStation.swift in Sources */,
+				F8269EDF28A4E2A200449A28 /* TrainRunningAndCoachDetailsTableViewCell.swift in Sources */,
+				F8518A19288FD225008B7D86 /* User.swift in Sources */,
+				F8BFDB6E28AE88F300BFAB70 /* RemainingDaysSeatAvailabilityTableViewCell.swift in Sources */,
+				5B6E922928D0B0E300887D12 /* EditProfileViewController.swift in Sources */,
+				F892825D289C3F4900643882 /* JourneyDateSelecterTableViewCell.swift in Sources */,
+				5B6E922728D04F7400887D12 /* ThemeChangerTableViewCell.swift in Sources */,
+				F8BA963128BDDF5900ACD430 /* CheckBox.swift in Sources */,
+				F863DA9928BC8D3000B3E00D /* PassengerDetailsTableViewCell.swift in Sources */,
+				F8518A2728900AB4008B7D86 /* AppDatabase.swift in Sources */,
+				5B3458E328C6571800278CB7 /* RecentSearchCollectionViewCell.swift in Sources */,
+				F863DA8F28B3B45600B3E00D /* AddPassengerTableViewCell.swift in Sources */,
+				5B28EAC328D366D2000402E5 /* ExistingPassengerViewController.swift in Sources */,
+				F85189D8288FB4CD008B7D86 /* SceneDelegate.swift in Sources */,
+				F841259728B0BB6200D05356 /* SearchStationInputsTableViewCell.swift in Sources */,
+				5B3458DF28C5B7F600278CB7 /* SeatAndPassengerTableViewCell.swift in Sources */,
+				F8518A29289260B7008B7D86 /* DBManager.swift in Sources */,
+				F863DA9B28BCA3AF00B3E00D /* TextFieldInputTableViewCell.swift in Sources */,
+				F863DA8D28B36D9700B3E00D /* BookingDetailsTableViewCell.swift in Sources */,
+				F8C5FEB528A24093009FD7BE /* TrainAvailabilityDetailsTableViewCell.swift in Sources */,
+				F8518A15288FD1B8008B7D86 /* Coach.swift in Sources */,
+				5BC525FC28D8AAE200634311 /* AvailabilityDisplayCollectionViewCell.swift in Sources */,
+				F8C5FEB728A26936009FD7BE /* TrainNameDisplayTableViewCell.swift in Sources */,
+				F8269EDD28A4C8D300449A28 /* FromToStationDetailsView.swift in Sources */,
+				F8BF06CE289E859B0072DEE1 /* SelectorViewController.swift in Sources */,
+				F8F147592892ACAA005279F9 /* SleeperClass.swift in Sources */,
+				F8518A1D288FF48A008B7D86 /* Ticket.swift in Sources */,
+				F863DA9728B8FF9500B3E00D /* Validator.swift in Sources */,
+				F8CB429328AB5243006E2DD0 /* StationPassingDetails.swift in Sources */,
+				F8518A1B288FF38B008B7D86 /* SavedPassengerDetails.swift in Sources */,
+				F820A0D92898FE5F0023FE44 /* WLSeatChart.swift in Sources */,
+				5B28EAC528D3689E000402E5 /* ExistingPassengerSelectionTableViewCell.swift in Sources */,
+				5B6E922528CF430C00887D12 /* ProfileTabViewController.swift in Sources */,
+				5B6E922F28D2EC7300887D12 /* CoachDisplayCollectionViewCell.swift in Sources */,
+				5B3458E128C650D200278CB7 /* RecentSearchesDisplayTableViewCell.swift in Sources */,
+				F8BF06DC28A116F70072DEE1 /* SearchStationTableViewController.swift in Sources */,
+				F820A0E8289A847A0023FE44 /* PassengerDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F85189E0288FB4CE008B7D86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85189E1288FB4CE008B7D86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85189E4288FB4CE008B7D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F85189E5288FB4CE008B7D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85189E7288FB4CE008B7D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Chikku Book/Chikku Book.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RGGVZ29TN;
+				GCC_PREFIX_HEADER = "Chikku Book";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chikku Book/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtouch.zcrm.demo.ChikkuBook;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F85189E8288FB4CE008B7D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Chikku Book/Chikku Book.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RGGVZ29TN;
+				GCC_PREFIX_HEADER = "Chikku Book";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chikku Book/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtouch.zcrm.demo.ChikkuBook;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85189CD288FB4CD008B7D86 /* Build configuration list for PBXProject "Chikku Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85189E4288FB4CE008B7D86 /* Debug */,
+				F85189E5288FB4CE008B7D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85189E6288FB4CE008B7D86 /* Build configuration list for PBXNativeTarget "Chikku Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85189E7288FB4CE008B7D86 /* Debug */,
+				F85189E8288FB4CE008B7D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F85189CA288FB4CD008B7D86 /* Project object */;
+}
